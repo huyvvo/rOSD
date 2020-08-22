@@ -4,7 +4,7 @@ Huy V. Vo, Patrick Pérez, Jean Ponce - ECCV 2020
 
 ![Teaser](images/multi_object.jpg)
 
-[Video presentation](https://www.youtube.com/watch?v=v2vzEXOvUMs&feature=youtu.be)
+[Video presentation: https://www.youtube.com/watch?v=v2vzEXOvUMs&feature=youtu.be](https://www.youtube.com/watch?v=v2vzEXOvUMs&feature=youtu.be)
 
 ### Getting started
 
