@@ -28,7 +28,7 @@ Download [VGG19 model](https://www.vlfeat.org/matconvnet/models/imagenet-vgg-ver
 The main scripts for testing the code on VOC_6x2 are [run_proposals.m](run_proposals.m), [run_scores.m](run_scores.m) and [run_rOSD.m](run_rOSD.m). In matlab, from the rOSD folder, run 
 
 ```
-set_path; run_proposals; run_scores; run_rOSD;"
+set_path; run_proposals; run_scores; run_rOSD;
 ```
 
 For a quick test, you can use the precomputed scores instead. In matlab, from the rOSD folder, run
