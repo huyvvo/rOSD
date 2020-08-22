@@ -18,7 +18,7 @@ git clone https://github.com/vohuy93/rOSD.git
 ```
 
 ```
-cd rOSD
+cd rOSD; mkdir data
 ```
 
 ## Running the tests
