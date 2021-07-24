@@ -24,7 +24,9 @@ cd rOSD; mkdir data
 
 ## Running the tests
 
-Download [VGG19 model](https://www.vlfeat.org/matconvnet/models/imagenet-vgg-verydeep-19.mat) and put it in [data/.matconvnet/models](data/.matconvnet/models).
+Download [VGG19 model](https://www.vlfeat.org/matconvnet/models/imagenet-vgg-verydeep-19.mat) and put it in `data/.matconvnet/models`.
+
+Download the VOC_6x2 dataset [here](https://drive.google.com/drive/folders/191WgX9fkrXr-AUVdIh57QWaEEXuaZzre?usp=sharing) and put it in `data`. As a sanity check, you should have the file `data/vocx/aeroplane_left/aeroplane_left.mat`. 
 
 The main scripts for testing the code on VOC_6x2 are [run_proposals.m](run_proposals.m), [run_scores.m](run_scores.m) and [run_rOSD.m](run_rOSD.m). In matlab, from the rOSD folder, run 
 
@@ -38,7 +40,7 @@ For a quick test, you can use the precomputed scores instead. In matlab, from th
 set_path; run_proposals;
 ```   
 
-Download [the scores](https://drive.google.com/drive/folders/1Q9mCnD9MIO0-CA6LvYvPR8JWSllDJSFX?usp=sharing) and put them in [data/vocx_cnn](data/vocx_cnn) by class, then from the rOSD folder, run
+Download [the scores](https://drive.google.com/drive/folders/1Q9mCnD9MIO0-CA6LvYvPR8JWSllDJSFX?usp=sharing) and put them in `data/vocx_cnn` by class, then from the rOSD folder, run
 
 ```
 set_path; run_rOSD;
