@@ -15,7 +15,7 @@ You need a GPU to extract features from pre-trained VGG19.
 ### Installing 
 
 ```
-git clone https://github.com/vohuy93/rOSD.git
+git clone https://github.com/huyvvo/rOSD.git
 ```
 
 ```
